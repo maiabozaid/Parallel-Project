@@ -1076,6 +1076,19 @@ public class MainPage extends javax.swing.JFrame {
         });
         jPanel4.add(signInButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 502, 90, 30));
 // <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// *****************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+// ********************************************************************************************************************
 private void mobilesButtonMouseClicked(java.awt.event.MouseEvent evt) {                                           
         // TODO add your handling code here:
         cardParentPanel.removeAll();

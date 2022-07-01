@@ -1,52 +1,24 @@
-package client;
+// Client Code
+            try{
+                    Socket socket = null;
+                    String host = "192.168.118.172";
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
+                    socket = new Socket(host, 4444);
 
-// Client class
-class Client {
-	
-	// driver code
-	public static void main(String[] args)
-	{
-		// establish a connection by providing host and port
-		// number
-            
-		try (Socket socket = new Socket("localhost", 1234)) {
-			
-			// writing to server
-			PrintWriter out = new PrintWriter(
-				socket.getOutputStream(), true);
+                    File file = new File("C:\\Users\\lenovo\\Desktop\\project\\Shopping Cart in Java\\Project\\DBs\\bbs.db");
+                    long length = file.length();
+                    byte[] bytes = new byte[16 * 1024];
+                    InputStream in = new FileInputStream(file);
+                    OutputStream out = socket.getOutputStream();
 
-			// reading from server
-			BufferedReader in
-				= new BufferedReader(new InputStreamReader(
-					socket.getInputStream()));
+                    int count;
+                    while ((count = in.read(bytes)) > 0) {
+                        out.write(bytes, 0, count);
+                    }
 
-			// object of scanner class
-			Scanner sc = new Scanner(System.in);
-			String line = null;
-
-			while (!"exit".equalsIgnoreCase(line)) {
-				
-				// reading from user
-				line = sc.nextLine();
-
-				// sending the user input to server
-				out.println(line);
-				out.flush();
-
-				// displaying server reply
-				System.out.println("Server replied "
-								+ in.readLine());
-			}
-			
-			// closing the scanner object
-			sc.close();
-		}
-		catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-}
+                    out.close();
+                    in.close();
+                    socket.close();
+            }catch(IOException ex){
+                System.out.println("Error");
+            }

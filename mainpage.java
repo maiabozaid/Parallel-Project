@@ -1082,7 +1082,18 @@ public class MainPage extends javax.swing.JFrame {
             }
         });
         jPanel4.add(signInButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 502, 90, 30));
-//hagar
+        
+        
+        
+        
+        
+        
+        
+        
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>        
+// //////////////////////////////////////////////////////////////////////////////////////////////nourhan
+        
+        
         showPassword.setBackground(new java.awt.Color(255, 255, 255));
         showPassword.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         showPassword.setForeground(new java.awt.Color(0, 77, 64));

@@ -575,7 +575,7 @@ public class MainPage extends javax.swing.JFrame {
                 kidsButtonActionPerformed(evt);
             }
         });
-// <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        
  javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -1075,9 +1075,7 @@ public class MainPage extends javax.swing.JFrame {
             }
         });
         jPanel4.add(signInButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 502, 90, 30));
-// <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// *****************************************************************************************************************
       
         showPassword.setBackground(new java.awt.Color(255, 255, 255));
         showPassword.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
@@ -1598,9 +1596,6 @@ public class MainPage extends javax.swing.JFrame {
 
 
 
-
-
-// ********************************************************************************************************************
 private void mobilesButtonMouseClicked(java.awt.event.MouseEvent evt) {                                           
         // TODO add your handling code here:
         cardParentPanel.removeAll();

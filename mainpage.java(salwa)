@@ -575,6 +575,7 @@ public class MainPage extends javax.swing.JFrame {
                 kidsButtonActionPerformed(evt);
             }
         });
+// <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
@@ -585,7 +586,7 @@ public class MainPage extends javax.swing.JFrame {
 
 
 
-
+// <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 private void mobilesButtonMouseClicked(java.awt.event.MouseEvent evt) {                                           
         // TODO add your handling code here:
         cardParentPanel.removeAll();
